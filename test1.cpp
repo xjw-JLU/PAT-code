@@ -1,9 +1,26 @@
 #include<iostream>
 #include<stdio.h>
 #include<algorithm>
+#include<stdlib.h>
+10 10 10 10 10 10 20 20 20 15 15 15 15 15 15 15 20 30 20 15 15 10 10 10
+5
+aaa 01:01:01:03 on-line
+aaa 01:02:00:01 on-line
+CYLL 01:28:15:41 on-line
+aaa 01:05:02:24 on-line
+aaa 01:02:00:02 off-line
 
+10 10 10 10 10 10 20 20 20 15 15 15 15 15 15 15 20 30 20 15 15 10 10 10
+5
+aaa 01:01:01:01 on-line
+aaa 01:01:01:02 on-line
+aaa 01:01:01:03 on-line
+aaa 01:01:01:07 on-line
+aaa 01:01:01:08 off-line
+aaa 01:01:01:09 off-line
 using namespace std;
-
+void xjw(){
+}
 bool cmp(int a1,int a2);
 int main(void){
 
@@ -26,6 +43,9 @@ int main(void){
         printf("\n%d",aaa[i]);
 
     printf("\n%d",29/10);
+
+    int tt3=atoi("99");
+    printf("\ntt3=%d",tt3);
     return 0;
 }
 bool cmp(int a1,int a2){
